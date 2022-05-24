@@ -1,10 +1,14 @@
 - name: Hello World Sample
   hosts: all
   tasks:
+    - name: Pause for 5 minutes
+      pause:
+        minutes: 5
+
     - name: Hello Message
       debug:
         msg: "Hello World!"
 
-    - name: Pause for 15 minutes
+    - name: Pause for 5 minutes again
       pause:
-        minutes: 15
+        minutes: 5
