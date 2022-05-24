@@ -5,3 +5,6 @@
       debug:
         msg: "Hello World!"
 
+    - name: Pause for 15 minutes
+      pause:
+        minutes: 15
